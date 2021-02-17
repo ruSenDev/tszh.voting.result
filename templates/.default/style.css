@@ -1,0 +1,158 @@
+.voting-result .voting-text {
+    font-size: 160%;
+    line-height: 110%;
+    font-weight: normal;
+}
+
+.voting-result .voting-date {
+    color: #333;
+    font-style: italic;
+    font-size: 91%;
+}
+
+.voting-result .voting-description {
+    margin: .5em 0 1em 0;
+}
+
+.voting-result .voting-question {
+    margin-bottom: 20px;
+}
+
+.voting-result .voting-question dt {
+    font-size: 120%;
+    font-style: italic;
+    margin: 0 0 10px 0;
+}
+
+.voting-result .voting-question dd {
+    margin: 0 0 10px 0;
+    line-height: 120%;
+}
+
+.voting-result .voting-question dd input {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.voting-result-diagram {
+    width: 90%;
+}
+
+.voting-result-diagram td {
+    padding: 10px 3px 10px 0;
+}
+
+.voting-result-box {
+    *display: inline;
+    display: -moz-inline-box;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #eee;
+    margin-right: 2px;
+    width: 10px;
+    height: 10px;
+}
+
+.answer-box-result.cursor .answer-box-result-text {
+    cursor: pointer;
+}
+
+.answer-box .answer-box-result {
+    padding: 5px 0;
+}
+
+.answer-span {}
+
+.block-right {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 0px 25px 10px 0px;
+}
+
+.pdf2 {
+    height: 75px;
+}
+
+.voting-result-percent {
+    color: #666;
+    font-size: 91%;
+
+    *display: inline;
+    display: -moz-inline-box;
+    display: inline-block;
+    /*width: 4.5em;*/
+}
+
+.print-table {
+    display: table;
+}
+
+.voting-header {
+    font-size: 120%;
+    font-style: italic;
+    margin: 0 0 10px 0;
+}
+
+.divTable {
+    display: table;
+    width: 100%;
+    margin: 10px 0px;
+    page-break-before: auto;
+    page-break-after: auto;
+    border-spacing: 2px;
+}
+
+@media screen {
+    .divTable.not-visible {
+        display: none;
+    }
+}
+
+.divTableRow {
+    display: table-row;
+    font-size: 13px;
+}
+
+.divTableRow.header {
+    display: table-row;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+}
+
+.divTableCell, .divTableHead {
+    border: 1px solid #999999;
+    display: table-cell;
+    padding: 3px 10px;
+}
+
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold;
+}
+
+.divTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+}
+
+.divTableBody {
+    display: table-row-group;
+}
+
+.result-data {
+    font-weight: bold;
+}
+
+.vote-form {
+    display: inline-block;
+}
