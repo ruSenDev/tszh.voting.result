@@ -8,7 +8,8 @@
 В файле \bitrix\modules\vdgb.tszhvote\classes\mysql\polls_vote.php надо добавить запрос, чтобы связать пользователя с его ответом
 ```sql
 "ANSWER_ID" => Array(
-"FIELD" => "CVEA.ANSWER_ID", 
-"TYPE" => "int", 
-"FROM" => "INNER JOIN b_citrus_voting_event_answer CVEA ON (CVE.ID = CVEA.ID)"),
+    "FIELD" => "CVEA.ANSWER_ID", 
+    "TYPE" => "int", 
+    "FROM" => "INNER JOIN b_citrus_voting_event_answer CVEA ON (CVE.ID = CVEA.ID)"
+),
 ```
